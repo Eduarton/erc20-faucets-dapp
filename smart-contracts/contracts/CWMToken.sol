@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract CWMToken is ERC20, Ownable {
-    constructor() ERC20("CodeWithMarish", "CWM") {
+    constructor() ERC20("USDT Token", "USDT") {
         _mint(msg.sender, 100 ether);
     }
 
